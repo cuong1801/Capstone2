@@ -1,0 +1,14 @@
+.p-slope-left {
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+}
+.p-divider {
+    margin: 0 auto;
+    background: #f2720c;
+    display: block;
+    width: 80px;
+    height: 6px;
+}
+.bs-md {
+    box-shadow: var(--bs-md) !important;
+}
